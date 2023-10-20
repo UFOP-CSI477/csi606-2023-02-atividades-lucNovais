@@ -3,11 +3,11 @@
 
 ## Atualize os seus dados
 
-- Nome:
-- Matrícula:
-- Curso:
-- Semestre/Ano correntes:
-- Link para o seu GitHub:
+- Nome: Lucas Novais da Silva
+- Matrícula: 18.1.8046
+- Curso: Engenharia de Computação
+- Semestre/Ano correntes: 2023.2
+- Link para o seu GitHub: [lucNovais](https://github.com/lucNovais)
 
 ## [Projeto final:](./Projeto/README.md)
 
