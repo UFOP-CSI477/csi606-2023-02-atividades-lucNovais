@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos Humanos</title>
+</head>
+<body>
+    <a href="../index.html">Retornar</a>
+    <h1> Recursos Humanos </h1>
+    <img src="https://th.bing.com/th/id/OIP.iNzIWTuzQM2j4SUa9eoDpgHaLD?pid=ImgDet&rs=1"
+         alt="no god please no"
+         title="no god please no"
+         width="20%">
+
+    <h2>Cadastro de Pessoas</h2>
+
+    <img src="https://media.tenor.com/ch2v0U4CSxYAAAAC/miss-you-terry-crews.gif"
+         alt="white chicks">
+    
+    <form method="get" action="/rh/cadastro">
+        <div>
+            <label for="nome">Nome: </label>
+            <input
+                type="text"
+                name="nome_pessoa"
+                id="nome"
+                placeholder="Nome papai">
+        </div>
+        
+        <div>
+            <label for="password">Senha: </label>
+            <input
+                type="password"
+                name="senha_pessoa"
+                id="senha"
+                placeholder="Senha secreta"
+                minlength="8">
+        </div>
+
+        <div>Gênero</div>
+
+        <div>
+            <input
+                type="radio"
+                name="genero"
+                id="masculino">
+            <label for="masculino">Masculino</label>
+        </div>
+
+        <div>
+            <input
+                type="radio"
+                name="genero"
+                id="feminino">
+            <label for="feminino">Feminino</label>
+        </div>
+
+        <div>
+            <input
+                type="radio"
+                name="genero"
+                id="naobinario">
+            <label for="naobinario">Não Binário</label>
+        </div>
+
+        <div>
+            <input
+                type="radio"
+                name="genero"
+                id="naoinformar">
+            <label for="naoinformar">Prefiro não informar</label>
+        </div>
+
+        <input type="submit" value="Cadastrar">
+        <!-- <button type="submit">Cadastrar</button> -->
+        <!-- http://127.0.0.1:5500/rh/cadastro?nome_pessoa=Luvas&senha_pessoa=senhakkkk -->
+    </form>
+</body>
+</html>
