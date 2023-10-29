@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <!-- CSS Embedded -->
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #F9F9F9;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2, h3 {
+            color: gray;
+        }
+
+        h2:hover {
+            border: 1pt solid gray;
+            background-color: #F2F2F2;
+        }
+
+        .destaque {
+            font-weight: bold;
+            background-color: rgb(233, 233, 233);
+        }
+
+        h2 + p {
+            font-size: 14pt;
+            padding-left: 10pt;
+        }
+
+        footer > p {
+            padding: 8pt;
+            margin: 6pt;
+
+            font-style: italic;
+        }
+
+        p::first-letter {
+            font-size: 18pt;
+            font-weight: bold;
+        }
+
+        input {
+            border: 1pt solid cadetblue;
+            border-radius: 5pt;
+            width: 20%;
+            height: 14pt;
+        }
+
+        input:focus {
+            background-color: #F2F2F2;
+            outline-color: cadetblue;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <nav>
+        <input type="text" name="pesquisa" id="pesquisa">
+        <button>Pesquisar</button>
+    </nav>
+
+    <!-- CSS Inline -->
+    <h1  style="color: cadetblue;">Sistemas Web</h1>
+
+    <h2>Introdução ao CSS</h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos excepturi
+       cumque atque velit alias dolorum hic quae nostrum recusandae officia, praesentium
+       et tempora vero animi numquam repudiandae magnam inventore delectus.</p>
+
+    <h3>Conceitos</h3>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi veniam officiis
+       maxime ullam modi! Quod sapiente, impedit cupiditate illo, commodi blanditiis
+       accusantium unde nulla tenetur ipsam excepturi enim dolorum at!</p>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum repudiandae
+           dolorum nulla laborum itaque aspernatur dicta libero porro aut corporis, ad
+           facilis amet adipisci atque. Quidem unde nobis omnis nulla?</p>
+    </div>
+
+    <footer>
+        <p class="destaque">Período Letivo: 2023/2</p>
+
+        <p class="destaque">Instituição: UFOP</p>
+    </footer>
+
+</body>
+</html>
