@@ -1,4 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+:root {
+    --primary-color: rgb(34, 34, 102);
+    --secondary-color: white;
+    --shadow: gray;
+}
+
+header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+
+    border-bottom: 1px solid var(--shadow);
+}
+
+div.main {
+    display: flex;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+
+    padding: 0.5rem;
+}
+
+.content {
+
 }
